@@ -1,4 +1,4 @@
-# Angular sample project Edit
+# Angular sample project
 
 ## This is a small sample project in Angular 4.
 
@@ -16,4 +16,8 @@ If you click on github, you gonna get a button there. This button is sending a r
 
 - sample for routing in Angular
 - sample for displaying elements of an array
-- sample of calling an API 
+- sample of calling an API
+
+Good luck for the first steps. If you need any help feel free to contact me on dogiweb@gmail.com.
+
+Bye
