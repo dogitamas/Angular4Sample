@@ -1,0 +1,15 @@
+<h1>Listing the github repo</h1>
+<h2>Using github api calls</h2>
+
+<button (click)="loadData()">Load repository list from Github</button>
+
+<div *ngFor="let item of data">
+  <div class="userList">
+      <div>Repository name: {{item.name}}</div>
+      <div>Owner: {{item.owner.login}}</div>
+      <div><img width="50" src="{{item.owner.avatar_url}}" /></div>
+      <div *ngIf="item.description" >Repository description: {{item.description}}</div>
+      <div>URL: <a href="{{item.owner.html_url}}">{{item.owner.html_url}}</a></div>
+      <br><hr><br>
+  </div>
+</div>

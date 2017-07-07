@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Fresca;
+    src: url('/assets/fonts/Fresca-Regular.ttf');
+}
+
+h1, h2 {
+    font-family: Fresca;
+    color: #010101;
+}
+
+.userList{
+  font-family: Fresca;
+  float: left;
+  padding: 0 10px;
+  margin: 30px 0 0;
+}
+
+.userList img{
+  height: 180px;
+}

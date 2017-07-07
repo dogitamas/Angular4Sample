@@ -1,0 +1,10 @@
+<h1>Angular 4 example app</h1>
+<h2>Displaying images by data service</h2>
+<div *ngFor="let user of memberService.members">
+  <div class="userList">
+    <div class="memberImg">
+      <a href="{{user.pic}}"><img [src]="user.pic" [alt]="user.name" [title]="user.name" /></a>
+    </div>
+    <div>{{ user.name }}</div>
+  </div>
+</div>
