@@ -26,7 +26,7 @@ import { RegistrationComponent } from './components/registration/registration.co
         component: HomepageComponent
       },
       {
-        path: 'home',
+        path: 'list-thumbs',
         component: MemberComponent
       },
       {
